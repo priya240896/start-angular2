@@ -10,7 +10,8 @@
     </p>
     <button (click)="share()">Share
     </button>
-    <app-product-alert [product]="product">
+    <app-product-alert [product]="product" (notify)="OnNotify()">
+      
     </app-product-alert>
 </div>
 
